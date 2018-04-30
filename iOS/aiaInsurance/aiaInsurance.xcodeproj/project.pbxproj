@@ -1,0 +1,454 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7B740DF0209606810067E54C /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B740DEF209606810067E54C /* Constants.swift */; };
+		7B802ABD2094BF5D002DA978 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B802ABC2094BF5D002DA978 /* AppDelegate.swift */; };
+		7B802ABF2094BF5D002DA978 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B802ABE2094BF5D002DA978 /* ViewController.swift */; };
+		7B802AC22094BF5D002DA978 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7B802AC02094BF5D002DA978 /* Main.storyboard */; };
+		7B802AC42094BF5D002DA978 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7B802AC32094BF5D002DA978 /* Assets.xcassets */; };
+		7B802AC72094BF5D002DA978 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7B802AC52094BF5D002DA978 /* LaunchScreen.storyboard */; };
+		7B802AD02094D802002DA978 /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B802ACF2094D802002DA978 /* CustomTableViewCell.swift */; };
+		7BF93CD12095B91F0053B7C8 /* ImageModal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BF93CD02095B91F0053B7C8 /* ImageModal.swift */; };
+		CE75113A750ED43FF92AA99A /* Pods_aiaInsurance.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C638B28875E8142477017CF7 /* Pods_aiaInsurance.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		7B740DEF209606810067E54C /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		7B802AB92094BF5D002DA978 /* aiaInsurance.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = aiaInsurance.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7B802ABC2094BF5D002DA978 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7B802ABE2094BF5D002DA978 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7B802AC12094BF5D002DA978 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7B802AC32094BF5D002DA978 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7B802AC62094BF5D002DA978 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7B802AC82094BF5D002DA978 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7B802ACF2094D802002DA978 /* CustomTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
+		7BF93CD02095B91F0053B7C8 /* ImageModal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageModal.swift; sourceTree = "<group>"; };
+		9BCEF6AFA609F354F4A5E791 /* Pods-aiaInsurance.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-aiaInsurance.release.xcconfig"; path = "Pods/Target Support Files/Pods-aiaInsurance/Pods-aiaInsurance.release.xcconfig"; sourceTree = "<group>"; };
+		C638B28875E8142477017CF7 /* Pods_aiaInsurance.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_aiaInsurance.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E95EBB469148DBDEE83E87C2 /* Pods-aiaInsurance.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-aiaInsurance.debug.xcconfig"; path = "Pods/Target Support Files/Pods-aiaInsurance/Pods-aiaInsurance.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7B802AB62094BF5D002DA978 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE75113A750ED43FF92AA99A /* Pods_aiaInsurance.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		466D39AD35C2C3C4656E7AE0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E95EBB469148DBDEE83E87C2 /* Pods-aiaInsurance.debug.xcconfig */,
+				9BCEF6AFA609F354F4A5E791 /* Pods-aiaInsurance.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		7B740DEE209606720067E54C /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				7B740DEF209606810067E54C /* Constants.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		7B802AB02094BF5D002DA978 = {
+			isa = PBXGroup;
+			children = (
+				7B802ABB2094BF5D002DA978 /* aiaInsurance */,
+				7B802ABA2094BF5D002DA978 /* Products */,
+				466D39AD35C2C3C4656E7AE0 /* Pods */,
+				D9B230D034C8555ABCBDDD60 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		7B802ABA2094BF5D002DA978 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7B802AB92094BF5D002DA978 /* aiaInsurance.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7B802ABB2094BF5D002DA978 /* aiaInsurance */ = {
+			isa = PBXGroup;
+			children = (
+				7B740DEE209606720067E54C /* Constants */,
+				7BF93CCF2095B7FB0053B7C8 /* Models */,
+				7B802ACE2094D7DE002DA978 /* CustomTableViewCell */,
+				7B802ABC2094BF5D002DA978 /* AppDelegate.swift */,
+				7B802ABE2094BF5D002DA978 /* ViewController.swift */,
+				7B802AC02094BF5D002DA978 /* Main.storyboard */,
+				7B802AC32094BF5D002DA978 /* Assets.xcassets */,
+				7B802AC52094BF5D002DA978 /* LaunchScreen.storyboard */,
+				7B802AC82094BF5D002DA978 /* Info.plist */,
+			);
+			path = aiaInsurance;
+			sourceTree = "<group>";
+		};
+		7B802ACE2094D7DE002DA978 /* CustomTableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				7B802ACF2094D802002DA978 /* CustomTableViewCell.swift */,
+			);
+			path = CustomTableViewCell;
+			sourceTree = "<group>";
+		};
+		7BF93CCF2095B7FB0053B7C8 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				7BF93CD02095B91F0053B7C8 /* ImageModal.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		D9B230D034C8555ABCBDDD60 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C638B28875E8142477017CF7 /* Pods_aiaInsurance.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7B802AB82094BF5D002DA978 /* aiaInsurance */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7B802ACB2094BF5D002DA978 /* Build configuration list for PBXNativeTarget "aiaInsurance" */;
+			buildPhases = (
+				6012A1B1DD53C71BD95C8377 /* [CP] Check Pods Manifest.lock */,
+				7B802AB52094BF5D002DA978 /* Sources */,
+				7B802AB62094BF5D002DA978 /* Frameworks */,
+				7B802AB72094BF5D002DA978 /* Resources */,
+				2FC8B6BB65BFFD4EBF1A3F1F /* [CP] Embed Pods Frameworks */,
+				6DF794114DC83ED928F236BD /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = aiaInsurance;
+			productName = aiaInsurance;
+			productReference = 7B802AB92094BF5D002DA978 /* aiaInsurance.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7B802AB12094BF5D002DA978 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = Devtalha.com;
+				TargetAttributes = {
+					7B802AB82094BF5D002DA978 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 7B802AB42094BF5D002DA978 /* Build configuration list for PBXProject "aiaInsurance" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7B802AB02094BF5D002DA978;
+			productRefGroup = 7B802ABA2094BF5D002DA978 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7B802AB82094BF5D002DA978 /* aiaInsurance */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7B802AB72094BF5D002DA978 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B802AC72094BF5D002DA978 /* LaunchScreen.storyboard in Resources */,
+				7B802AC42094BF5D002DA978 /* Assets.xcassets in Resources */,
+				7B802AC22094BF5D002DA978 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2FC8B6BB65BFFD4EBF1A3F1F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-aiaInsurance/Pods-aiaInsurance-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/AlamofireImage/AlamofireImage.framework",
+				"${BUILT_PRODUCTS_DIR}/Realm/Realm.framework",
+				"${BUILT_PRODUCTS_DIR}/RealmSwift/RealmSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Realm.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RealmSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-aiaInsurance/Pods-aiaInsurance-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6012A1B1DD53C71BD95C8377 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-aiaInsurance-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6DF794114DC83ED928F236BD /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-aiaInsurance/Pods-aiaInsurance-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7B802AB52094BF5D002DA978 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B740DF0209606810067E54C /* Constants.swift in Sources */,
+				7B802AD02094D802002DA978 /* CustomTableViewCell.swift in Sources */,
+				7B802ABF2094BF5D002DA978 /* ViewController.swift in Sources */,
+				7B802ABD2094BF5D002DA978 /* AppDelegate.swift in Sources */,
+				7BF93CD12095B91F0053B7C8 /* ImageModal.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		7B802AC02094BF5D002DA978 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7B802AC12094BF5D002DA978 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7B802AC52094BF5D002DA978 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7B802AC62094BF5D002DA978 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7B802AC92094BF5D002DA978 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7B802ACA2094BF5D002DA978 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7B802ACC2094BF5D002DA978 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E95EBB469148DBDEE83E87C2 /* Pods-aiaInsurance.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9E27RZ9878;
+				INFOPLIST_FILE = aiaInsurance/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.devtalha.aiaInsurance;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7B802ACD2094BF5D002DA978 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9BCEF6AFA609F354F4A5E791 /* Pods-aiaInsurance.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9E27RZ9878;
+				INFOPLIST_FILE = aiaInsurance/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.devtalha.aiaInsurance;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7B802AB42094BF5D002DA978 /* Build configuration list for PBXProject "aiaInsurance" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7B802AC92094BF5D002DA978 /* Debug */,
+				7B802ACA2094BF5D002DA978 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7B802ACB2094BF5D002DA978 /* Build configuration list for PBXNativeTarget "aiaInsurance" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7B802ACC2094BF5D002DA978 /* Debug */,
+				7B802ACD2094BF5D002DA978 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7B802AB12094BF5D002DA978 /* Project object */;
+}
